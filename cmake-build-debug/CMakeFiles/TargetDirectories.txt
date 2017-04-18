@@ -1,0 +1,3 @@
+/home/shuowang/permutation/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/shuowang/permutation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/shuowang/permutation/cmake-build-debug/CMakeFiles/permutation.dir

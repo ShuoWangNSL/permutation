@@ -1,0 +1,71 @@
+len = 1
+STL:2.5e-05
+dict:4e-06
+buf:2e-06
+
+len = 2
+STL:3.6e-05
+dict:1.1e-05
+buf:3e-06
+
+len = 3
+STL:2.6e-05
+dict:1.9e-05
+buf:4e-06
+
+len = 4
+STL:5.9e-05
+dict:1.8e-05
+buf:8e-06
+
+len = 5
+STL:4e-05
+dict:1.1e-05
+buf:1.7e-05
+
+len = 6
+STL:0.000104
+dict:5.3e-05
+buf:9.7e-05
+
+len = 8
+STL:0.00357
+dict:0.001604
+buf:0.008653
+
+len = 9
+STL:0.033936
+dict:0.014104
+buf:0.078662
+
+len = 10
+STL:0.287498
+dict:0.145367
+buf:0.915051
+
+
+len = 11
+STL:3.28065
+dict:1.4622
+buf:12.2851
+
+len = 4
+STL:4.7e-05
+dict:1.2e-05
+buf:5.5e-05
+
+len = 10
+STL:0.310346
+dict:0.138415
+buf:0.917832
+
+len = 11
+STL:3.13218
+dict:1.45515
+buf:11.7048
+
+len = 12
+STL:36.9074
+dict:17.4373
+buf:160.792
+
