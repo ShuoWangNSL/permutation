@@ -17,17 +17,7 @@ void Incrnum::print(){
 
 bool Incrnum::addone(){
 	int i,flag = 0;
-//	for (i = 0;i < len;i++){
-	//	if (arr[i] < i + 1){
-//			flag = 1;
-//			break;
-//		}		
-//	}
 
-//	if(flag == 0){
-//		cout<<"Maximum Already."<<endl;
-//		return;
-//	}
 	arr[0]++;
 	for (i = 0;i < len -1;i++){		
 		if (arr[i] > i+1){
@@ -43,4 +33,24 @@ bool Incrnum::addone(){
 	}
 	else
 		return true;
+}
+
+vector <int> Incrnum::transform(){
+    int i,j;
+    vector <int> seq(len + 1);
+    vector <bool> flag(len + 1);
+    for (i = len - 1;i >= 0;i--){
+        int cnt = 0;
+        for(j = 0;;j++){
+            if (flag[j] == true)continue;
+            if (cnt == arr[i])break;
+            cnt++;
+        }
+        seq[j] = i + 2;
+        flag[j] = true;
+    }
+    for (j =0;j<len+1;j++)
+        if(flag[j]==false)
+            seq[j] = 1;
+    return seq;
 }

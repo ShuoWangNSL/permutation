@@ -49,23 +49,150 @@ STL:3.28065
 dict:1.4622
 buf:12.2851
 
-len = 4
-STL:4.7e-05
-dict:1.2e-05
-buf:5.5e-05
-
-len = 10
-STL:0.310346
-dict:0.138415
-buf:0.917832
-
-len = 11
-STL:3.13218
-dict:1.45515
-buf:11.7048
-
 len = 12
 STL:36.9074
 dict:17.4373
 buf:160.792
+
+len = 4
+STL:4e-05
+dict:1e-05
+buf:8e-06
+
+len = 4
+STL:3.4e-05
+dict:9e-06
+buf:8e-06
+
+len = 4
+STL:3.4e-05
+dict:1.8e-05
+buf:7e-06
+
+len = 4
+STL:2.5e-05
+dict:8e-06
+buf:8e-06
+
+len = 4
+STL:3.7e-05
+dict:9e-06
+buf:1e-05
+
+len = 4
+STL:3.2e-05
+dict:9e-06
+buf:6e-06
+
+len = 4
+STL:3.7e-05
+dict:1e-05
+buf:9e-06
+
+len = 4
+STL:4.3e-05
+dict:2.6e-05
+buf:1.8e-05
+
+len = 4
+STL:3.5e-05
+dict:1e-05
+buf:8e-06
+
+len = 4
+STL:4e-05
+dict:7e-06
+buf:1.6e-05
+
+len = 4
+STL:3.5e-05
+dict:8e-06
+buf:7e-06
+
+len = 4
+STL:3.7e-05
+dict:1.2e-05
+buf:9e-06
+
+incr:0.000122
+dcr:0.000117
+
+len = 4
+STL:3.6e-05
+dict:9e-06
+buf:8e-06
+
+incr:9.3e-05
+dcr:7.6e-05
+
+len = 4
+STL:4.2e-05
+dict:1.2e-05
+buf:9e-06
+
+incr:4.1e-05
+dcr:3.2e-05
+
+len = 5
+STL:5.3e-05
+dict:1.7e-05
+buf:6.95262e-310
+incr:0.000164
+dcr:0.000157
+
+len = 6
+STL:0.000104
+dict:3.7e-05
+buf:6.95269e-310
+incr:0.000833
+dcr:0.00086
+
+len = 7
+STL:0.000485
+dict:0.000212
+buf:6.95301e-310
+incr:0.006947
+dcr:0.007001
+
+len = 8
+STL:0.004909
+dict:0.002266
+buf:6.95256e-310
+incr:0.075015
+dcr:0.062729
+
+len = 9
+STL:0.034612
+dict:0.020454
+buf:6.95257e-310
+incr:0.668072
+dcr:0.659518
+
+len = 10
+STL:0.316045
+dict:0.151057
+buf:6.95295e-310
+incr:7.34281
+dcr:7.43767
+
+len = 10
+STL:6.9009e-310
+dict:6.95283e-310
+buf:0.966185
+incr:7.38197
+dcr:7.48221
+
+len = 10
+STL:0.312096
+dict:0.138245
+buf:0.98402
+incr:7.35454
+dcr:7.41418
+
+len = 11
+STL:3.1946
+dict:1.50935
+buf:0
+incr:91.5681
+dcr:93.944
 
