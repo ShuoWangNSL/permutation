@@ -1,13 +1,10 @@
-//
-// Created by shuowang on 17-4-18.
-//
 #include <string>
 #include <vector>
 #include <iostream>
 using namespace std;
-class Incrnum{
+class Dcrnum{
 public:
-    Incrnum(int length);
+    Dcrnum(int length);
     bool addone();
 	void print();
 private:

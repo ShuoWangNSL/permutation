@@ -6,11 +6,12 @@
 #include "dict.h"
 #include "dict_buf.h"
 #include "incrnum.h"
+#include "dcrnum.h"
 using namespace std;
 int main(){
 	clock_t start_stl, finish_stl ,start_dict , finish_dict ,start_buf , finish_buf ,start_2 , finish_2 ,start_3 , finish_3;
 	double time_stl,time_dict,time_buf;
-	string str = "0123456789abc";
+	string str = "0123";
 //	sort(str.begin(),str.end());
 	start_stl = clock();
 	cout<<str<<endl;
@@ -46,6 +47,17 @@ int main(){
 	fp<<"dict:"<<time_dict<<endl;
 	fp<<"buf:"<<time_buf<<endl<<endl;
 	fp.close();
-    vector <int> arr;
-    arr.push_back(1);
+	Incrnum * num1 = new Incrnum(3);
+	num1->print();
+	for (int i = 0;i<frac(4);i++){
+		if(num1->addone())
+		num1->print();
+	}
+
+	Dcrnum * num2 = new Dcrnum(3);
+	num2->print();
+	for (int i = 0;i<frac(4);i++){
+		if(num2->addone())
+		num2->print();
+	}
 }
