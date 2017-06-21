@@ -153,12 +153,62 @@ CMakeFiles/permutation.dir/swap.cpp.o.provides: CMakeFiles/permutation.dir/swap.
 CMakeFiles/permutation.dir/swap.cpp.o.provides.build: CMakeFiles/permutation.dir/swap.cpp.o
 
 
+CMakeFiles/permutation.dir/incrnum.cpp.o: CMakeFiles/permutation.dir/flags.make
+CMakeFiles/permutation.dir/incrnum.cpp.o: ../incrnum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuowang/permutation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/permutation.dir/incrnum.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/permutation.dir/incrnum.cpp.o -c /home/shuowang/permutation/incrnum.cpp
+
+CMakeFiles/permutation.dir/incrnum.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/permutation.dir/incrnum.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuowang/permutation/incrnum.cpp > CMakeFiles/permutation.dir/incrnum.cpp.i
+
+CMakeFiles/permutation.dir/incrnum.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/permutation.dir/incrnum.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuowang/permutation/incrnum.cpp -o CMakeFiles/permutation.dir/incrnum.cpp.s
+
+CMakeFiles/permutation.dir/incrnum.cpp.o.requires:
+
+.PHONY : CMakeFiles/permutation.dir/incrnum.cpp.o.requires
+
+CMakeFiles/permutation.dir/incrnum.cpp.o.provides: CMakeFiles/permutation.dir/incrnum.cpp.o.requires
+	$(MAKE) -f CMakeFiles/permutation.dir/build.make CMakeFiles/permutation.dir/incrnum.cpp.o.provides.build
+.PHONY : CMakeFiles/permutation.dir/incrnum.cpp.o.provides
+
+CMakeFiles/permutation.dir/incrnum.cpp.o.provides.build: CMakeFiles/permutation.dir/incrnum.cpp.o
+
+
+CMakeFiles/permutation.dir/dcrnum.cpp.o: CMakeFiles/permutation.dir/flags.make
+CMakeFiles/permutation.dir/dcrnum.cpp.o: ../dcrnum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuowang/permutation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/permutation.dir/dcrnum.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/permutation.dir/dcrnum.cpp.o -c /home/shuowang/permutation/dcrnum.cpp
+
+CMakeFiles/permutation.dir/dcrnum.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/permutation.dir/dcrnum.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuowang/permutation/dcrnum.cpp > CMakeFiles/permutation.dir/dcrnum.cpp.i
+
+CMakeFiles/permutation.dir/dcrnum.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/permutation.dir/dcrnum.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuowang/permutation/dcrnum.cpp -o CMakeFiles/permutation.dir/dcrnum.cpp.s
+
+CMakeFiles/permutation.dir/dcrnum.cpp.o.requires:
+
+.PHONY : CMakeFiles/permutation.dir/dcrnum.cpp.o.requires
+
+CMakeFiles/permutation.dir/dcrnum.cpp.o.provides: CMakeFiles/permutation.dir/dcrnum.cpp.o.requires
+	$(MAKE) -f CMakeFiles/permutation.dir/build.make CMakeFiles/permutation.dir/dcrnum.cpp.o.provides.build
+.PHONY : CMakeFiles/permutation.dir/dcrnum.cpp.o.provides
+
+CMakeFiles/permutation.dir/dcrnum.cpp.o.provides.build: CMakeFiles/permutation.dir/dcrnum.cpp.o
+
+
 # Object files for target permutation
 permutation_OBJECTS = \
 "CMakeFiles/permutation.dir/dict.cpp.o" \
 "CMakeFiles/permutation.dir/dict_buf.cpp.o" \
 "CMakeFiles/permutation.dir/generate.cpp.o" \
-"CMakeFiles/permutation.dir/swap.cpp.o"
+"CMakeFiles/permutation.dir/swap.cpp.o" \
+"CMakeFiles/permutation.dir/incrnum.cpp.o" \
+"CMakeFiles/permutation.dir/dcrnum.cpp.o"
 
 # External object files for target permutation
 permutation_EXTERNAL_OBJECTS =
@@ -167,9 +217,11 @@ permutation: CMakeFiles/permutation.dir/dict.cpp.o
 permutation: CMakeFiles/permutation.dir/dict_buf.cpp.o
 permutation: CMakeFiles/permutation.dir/generate.cpp.o
 permutation: CMakeFiles/permutation.dir/swap.cpp.o
+permutation: CMakeFiles/permutation.dir/incrnum.cpp.o
+permutation: CMakeFiles/permutation.dir/dcrnum.cpp.o
 permutation: CMakeFiles/permutation.dir/build.make
 permutation: CMakeFiles/permutation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shuowang/permutation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable permutation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shuowang/permutation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable permutation"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/permutation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -181,6 +233,8 @@ CMakeFiles/permutation.dir/requires: CMakeFiles/permutation.dir/dict.cpp.o.requi
 CMakeFiles/permutation.dir/requires: CMakeFiles/permutation.dir/dict_buf.cpp.o.requires
 CMakeFiles/permutation.dir/requires: CMakeFiles/permutation.dir/generate.cpp.o.requires
 CMakeFiles/permutation.dir/requires: CMakeFiles/permutation.dir/swap.cpp.o.requires
+CMakeFiles/permutation.dir/requires: CMakeFiles/permutation.dir/incrnum.cpp.o.requires
+CMakeFiles/permutation.dir/requires: CMakeFiles/permutation.dir/dcrnum.cpp.o.requires
 
 .PHONY : CMakeFiles/permutation.dir/requires
 

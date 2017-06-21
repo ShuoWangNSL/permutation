@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/permutation.dir/dict_buf.cpp.o"
   "CMakeFiles/permutation.dir/generate.cpp.o"
   "CMakeFiles/permutation.dir/swap.cpp.o"
+  "CMakeFiles/permutation.dir/incrnum.cpp.o"
+  "CMakeFiles/permutation.dir/dcrnum.cpp.o"
   "permutation.pdb"
   "permutation"
 )

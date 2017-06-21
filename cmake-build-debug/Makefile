@@ -123,6 +123,33 @@ permutation/fast:
 	$(MAKE) -f CMakeFiles/permutation.dir/build.make CMakeFiles/permutation.dir/build
 .PHONY : permutation/fast
 
+dcrnum.o: dcrnum.cpp.o
+
+.PHONY : dcrnum.o
+
+# target to build an object file
+dcrnum.cpp.o:
+	$(MAKE) -f CMakeFiles/permutation.dir/build.make CMakeFiles/permutation.dir/dcrnum.cpp.o
+.PHONY : dcrnum.cpp.o
+
+dcrnum.i: dcrnum.cpp.i
+
+.PHONY : dcrnum.i
+
+# target to preprocess a source file
+dcrnum.cpp.i:
+	$(MAKE) -f CMakeFiles/permutation.dir/build.make CMakeFiles/permutation.dir/dcrnum.cpp.i
+.PHONY : dcrnum.cpp.i
+
+dcrnum.s: dcrnum.cpp.s
+
+.PHONY : dcrnum.s
+
+# target to generate assembly for a file
+dcrnum.cpp.s:
+	$(MAKE) -f CMakeFiles/permutation.dir/build.make CMakeFiles/permutation.dir/dcrnum.cpp.s
+.PHONY : dcrnum.cpp.s
+
 dict.o: dict.cpp.o
 
 .PHONY : dict.o
@@ -204,6 +231,33 @@ generate.cpp.s:
 	$(MAKE) -f CMakeFiles/permutation.dir/build.make CMakeFiles/permutation.dir/generate.cpp.s
 .PHONY : generate.cpp.s
 
+incrnum.o: incrnum.cpp.o
+
+.PHONY : incrnum.o
+
+# target to build an object file
+incrnum.cpp.o:
+	$(MAKE) -f CMakeFiles/permutation.dir/build.make CMakeFiles/permutation.dir/incrnum.cpp.o
+.PHONY : incrnum.cpp.o
+
+incrnum.i: incrnum.cpp.i
+
+.PHONY : incrnum.i
+
+# target to preprocess a source file
+incrnum.cpp.i:
+	$(MAKE) -f CMakeFiles/permutation.dir/build.make CMakeFiles/permutation.dir/incrnum.cpp.i
+.PHONY : incrnum.cpp.i
+
+incrnum.s: incrnum.cpp.s
+
+.PHONY : incrnum.s
+
+# target to generate assembly for a file
+incrnum.cpp.s:
+	$(MAKE) -f CMakeFiles/permutation.dir/build.make CMakeFiles/permutation.dir/incrnum.cpp.s
+.PHONY : incrnum.cpp.s
+
 swap.o: swap.cpp.o
 
 .PHONY : swap.o
@@ -240,6 +294,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... permutation"
+	@echo "... dcrnum.o"
+	@echo "... dcrnum.i"
+	@echo "... dcrnum.s"
 	@echo "... dict.o"
 	@echo "... dict.i"
 	@echo "... dict.s"
@@ -249,6 +306,9 @@ help:
 	@echo "... generate.o"
 	@echo "... generate.i"
 	@echo "... generate.s"
+	@echo "... incrnum.o"
+	@echo "... incrnum.i"
+	@echo "... incrnum.s"
 	@echo "... swap.o"
 	@echo "... swap.i"
 	@echo "... swap.s"

@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/shuowang/permutation/dcrnum.cpp">
+			<Option target="permutation"/>
+		</Unit>
+		<Unit filename="/home/shuowang/permutation/dcrnum.h">
+			<Option target="permutation"/>
+		</Unit>
 		<Unit filename="/home/shuowang/permutation/dict.cpp">
 			<Option target="permutation"/>
 		</Unit>
@@ -97,6 +103,9 @@
 			<Option target="permutation"/>
 		</Unit>
 		<Unit filename="/home/shuowang/permutation/generate.cpp">
+			<Option target="permutation"/>
+		</Unit>
+		<Unit filename="/home/shuowang/permutation/incrnum.cpp">
 			<Option target="permutation"/>
 		</Unit>
 		<Unit filename="/home/shuowang/permutation/incrnum.h">

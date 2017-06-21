@@ -1,1 +1,1 @@
-/usr/bin/c++   -g   CMakeFiles/permutation.dir/dict.cpp.o CMakeFiles/permutation.dir/dict_buf.cpp.o CMakeFiles/permutation.dir/generate.cpp.o CMakeFiles/permutation.dir/swap.cpp.o  -o permutation 
+/usr/bin/c++   -g   CMakeFiles/permutation.dir/dict.cpp.o CMakeFiles/permutation.dir/dict_buf.cpp.o CMakeFiles/permutation.dir/generate.cpp.o CMakeFiles/permutation.dir/swap.cpp.o CMakeFiles/permutation.dir/incrnum.cpp.o CMakeFiles/permutation.dir/dcrnum.cpp.o  -o permutation 

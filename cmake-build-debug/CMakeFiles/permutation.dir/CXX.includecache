@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/home/shuowang/permutation/dcrnum.cpp
+dcrnum.h
+/home/shuowang/permutation/dcrnum.h
+
+/home/shuowang/permutation/dcrnum.h
+string
+-
+vector
+-
+iostream
+-
+
 /home/shuowang/permutation/dict.cpp
 dict.h
 /home/shuowang/permutation/dict.h
@@ -41,6 +53,22 @@ dict.h
 /home/shuowang/permutation/dict.h
 dict_buf.h
 /home/shuowang/permutation/dict_buf.h
+incrnum.h
+/home/shuowang/permutation/incrnum.h
+dcrnum.h
+/home/shuowang/permutation/dcrnum.h
+
+/home/shuowang/permutation/incrnum.cpp
+incrnum.h
+/home/shuowang/permutation/incrnum.h
+
+/home/shuowang/permutation/incrnum.h
+string
+-
+vector
+-
+iostream
+-
 
 /home/shuowang/permutation/swap.cpp
 swap.h

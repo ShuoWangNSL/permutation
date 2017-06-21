@@ -10,6 +10,6 @@ set(SOURCE_FILES
     dict_buf.h
     generate.cpp
     swap.cpp
-    swap.h incrnum.h)
+    swap.h incrnum.cpp incrnum.h dcrnum.cpp dcrnum.h)
 
 add_executable(permutation ${SOURCE_FILES})

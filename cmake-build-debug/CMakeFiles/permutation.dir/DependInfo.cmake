@@ -4,9 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/shuowang/permutation/dcrnum.cpp" "/home/shuowang/permutation/cmake-build-debug/CMakeFiles/permutation.dir/dcrnum.cpp.o"
   "/home/shuowang/permutation/dict.cpp" "/home/shuowang/permutation/cmake-build-debug/CMakeFiles/permutation.dir/dict.cpp.o"
   "/home/shuowang/permutation/dict_buf.cpp" "/home/shuowang/permutation/cmake-build-debug/CMakeFiles/permutation.dir/dict_buf.cpp.o"
   "/home/shuowang/permutation/generate.cpp" "/home/shuowang/permutation/cmake-build-debug/CMakeFiles/permutation.dir/generate.cpp.o"
+  "/home/shuowang/permutation/incrnum.cpp" "/home/shuowang/permutation/cmake-build-debug/CMakeFiles/permutation.dir/incrnum.cpp.o"
   "/home/shuowang/permutation/swap.cpp" "/home/shuowang/permutation/cmake-build-debug/CMakeFiles/permutation.dir/swap.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
