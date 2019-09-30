@@ -3,10 +3,10 @@
 #include <fstream>
 #include <string>
 #include <time.h>
-#include "dict.h"
-#include "dict_buf.h"
-#include "incrnum.h"
-#include "dcrnum.h"
+#include "lexicographic/dict.h"
+#include "lexicographic_cache/dict_buf.h"
+#include "increasing_ decimal/incrnum.h"
+#include "decreasing_ decimal/dcrnum.h"
 using namespace std;
 int main(){
 	clock_t start_stl, finish_stl ,start_dict , finish_dict ,start_buf , finish_buf ,start_incr , finish_incr ,start_dcr , finish_dcr;
